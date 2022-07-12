@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="/css/grid.css"/>
+        <title>FrameWork Bootstrap</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="container-responsive">
+                <a class="navbar-ancre" href="#"><img class="img img-responsive-sm img-thumbnail-sm img-rounded" src="mtga.jpg" alt="logo"/></a>
+                <ul class="navbar-nav nav-justifify-center nav-tab">
+                    <li class="nav-li nav-link">Home</li>
+                    <li class="dropdown nav-li">Test
+                        <ul class="dropdown-content">
+                            <li><a href="#">Test</a></li>
+                            <li><a href="#">Test</a></li>
+                            <li><a href="#">Test</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-li nav-link-disabled">Test</li>
+                </ul>
+                <form class="d-flex container-sm">
+                    <input class="form-control" type="search" placeholder="Rechercher">
+                    <button class="btn-green" type="submit">Search</button>
+                  </form>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button class="btn">Test</button>
+                    <div class="alert alert-success hidden-tablet" role="alert">Ceci est une alert-success</div>
+                    <div class="alert alert-warning hidden-phone" role="alert">Ceci est une alert-warning</div>
+                    <div class="alert alert-danger hidden-screen" role="alert">Ceci est une alert-danger</div>
+                    <div class="alert alert-info" role="alert">Ceci est une alert-info</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-responsive">
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-effect">Test</button>
+                    <img class="img-responsive-md img-thumbnail img-rounded img-blur img-thumbnail-lg-width" src="nissa.jpg" alt="elves"/>
+                    <img class="img-responsive-md im img-circle img-thumbnail" src="catfly.jpg" alt="catfly"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-sm-4">
+                    <button class="btn-teal">Test</button>
+                    <p class="text-muted bg-muted">Ceci est un texte muted</p>
+                    <p class="text-primary bg-primary">Ceci est un texte primary</p>
+                    <p class="text-success bg-success">Ceci est un texte success</p>
+                    <p class="text-warning bg-warning">Ceci est un texte warning</p>
+                    <p class="text-error bg-error">Ceci est un texte error</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
